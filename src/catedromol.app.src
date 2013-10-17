@@ -1,0 +1,16 @@
+{application, catedromol,
+ [
+  {description,["CatedroMol, a experimental multicore molecular dynamics (Nose-Hoover) program."
+                ,"\nCopyright: (C) 2012 ResMol (Reactivity and Molecular structure group)"
+                ,"\nAuthors: Angel Alvarez,         (angel at uah.es)."
+                ,"\nAuthors: Felipe Zapata, (felipe.zapata at uah.es)."]},
+  {author,["angel@uah.es","felipe.zapata@uah.es"]},
+  {vsn, {cmd, "echo 1.0 Build $(cat .version)"}},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { application_core, []}},
+  {env, []}
+ ]}.
