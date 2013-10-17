@@ -9,7 +9,7 @@ forming 4-atoms unit following designatedbonds and internal coordinates, of chem
 units comunicate by message passing along the simulation. 
 
 We are using rebar packaging and a concise use of geopt like facilities to build a selfconatined standalone
-executable that can be used as a normal Unix appalication (provided you have the erlang runtime somewhere).
+executable that can be used as a normal Unix application (provided you have the erlang runtime somewhere).
 
 See the built-in instructions to the available modes of execution...
 
